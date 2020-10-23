@@ -1,0 +1,137 @@
+:root{
+    background-color: #faf7ec;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #faf7ec; */
+    font-family: sans-serif;
+}
+
+.app
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+    width: fit-content;
+    height: fit-content;
+    border: 1px double black;
+    border-radius: 10px;
+    padding: 10%;
+    background-color: #333 ;
+    
+
+}
+#container h1{
+    color: #eba656;
+    font-size: 3rem;
+}
+
+
+
+
+
+#container #amount
+{
+    width: 280px;
+    height: 35px;
+    border: 1px solid hidden;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10% auto;
+    text-align: center;
+    color: gray;
+    background-color: #333
+    
+    
+    
+}
+
+#container #amount .number { background-color: #333;}
+
+
+
+.options 
+{
+    width: 280px;
+    height: 35px;
+    border: 1px solid hidden ;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10% auto;
+    color: gray;
+    background-color: #333;
+}
+
+.options:focus{
+    outline: none;
+}
+
+
+
+
+#container #amount:focus{
+    outline: none;
+ }
+
+
+ .buttonSelect{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     width: 28%;
+     margin: auto;
+     padding: 10px;
+     flex-wrap: wrap;
+ }
+
+ .buttonSelect #button, #reset, #questions, #start{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #eba656;
+    background-color: #333;
+    border-radius: 5px;
+    
+    
+ }
+
+
+ .buttonSelect #questions:hover, #reset:hover, #button:hover, #start:hover
+ {
+    cursor: pointer;
+    /* box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5); */
+    background-color: #eba656;
+    color: white;
+ }
+
+ .buttonSelect #button:focus, #reset:focus, #questions:focus{outline: none;}
+
+ .form{ 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 37%;
+    margin: auto;
+    padding: 10px;
+    background-color: #333;
+    color: #eba656;
+    border-radius: 5px;
+}
+.form h1{ padding: 5px; margin: 20px}
+
+
